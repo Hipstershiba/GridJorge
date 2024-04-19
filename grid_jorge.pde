@@ -21,21 +21,21 @@ void setup() {
   // velocidade_da_animacao = 2;
   // contador_de_quadros_da_animacao = 0;
   // contador_de_iteracoes = 0;
-  monitor_1 = new Xadrez(481, 0, 400, 640, 50);
+  monitor_1 = new Xadrez(481, 0, 400, 640, 100);
   monitor_1.altera_iteracao_inicial(0);
 
-  monitor_2 = new Xadrez(928, 66, 640, 400, 50);
+  monitor_2 = new Xadrez(928, 66, 640, 400, 100);
   monitor_2.altera_iteracao_inicial(2);
-  monitor_2.altera_correcao_de_x(-31);
+  monitor_2.altera_correcao_de_x(-81);
 
-  monitor_3 = new Xadrez(351, 572, 640, 360, 50);
+  monitor_3 = new Xadrez(351, 572, 640, 360, 100);
   monitor_3.altera_iteracao_inicial(2);
-  monitor_3.altera_correcao_de_x(-20);
-  monitor_3.altera_correcao_de_y(-22);
+  monitor_3.altera_correcao_de_x(-70);
+  monitor_3.altera_correcao_de_y(28);
 
-  monitor_4 = new Xadrez(1047, 440, 400, 640, 50);
+  monitor_4 = new Xadrez(1047, 440, 400, 640, 100);
   monitor_4.altera_iteracao_inicial(0);
-  monitor_4.altera_correcao_de_y(-24);
+  monitor_4.altera_correcao_de_y(26);
 }
 
 void draw(){
